@@ -1,5 +1,5 @@
 {
-    "name": "mixerapi/exception-render",
+    "name": "masakni/exception-render",
     "description": "Handles rendering entity validation errors and other exceptions for your API",
     "type": "cakephp-plugin",
     "license": "MIT",

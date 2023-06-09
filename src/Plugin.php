@@ -13,7 +13,7 @@ class Plugin extends BasePlugin
      *
      * @var string
      */
-    protected $name = 'MixerApi/ExceptionRender';
+    protected ?string $name = 'MixerApi/ExceptionRender';
 
     /**
      * Console middleware
@@ -27,21 +27,21 @@ class Plugin extends BasePlugin
      *
      * @var bool
      */
-    protected $middlewareEnabled = false;
+    protected bool $middlewareEnabled = false;
 
     /**
      * Register container services
      *
      * @var bool
      */
-    protected $servicesEnabled = false;
+    protected bool $servicesEnabled = false;
 
     /**
      * Load routes or not
      *
      * @var bool
      */
-    protected $routesEnabled = false;
+    protected bool $routesEnabled = false;
 
     /**
      * @param \Cake\Core\PluginApplicationInterface $app PluginApplicationInterface

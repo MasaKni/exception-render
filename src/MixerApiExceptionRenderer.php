@@ -32,7 +32,7 @@ use Throwable;
  * Using a subclass of ExceptionRenderer gives you full control over how Exceptions are rendered, you
  * can configure your class in your config/app.php.
  *
- * @uses \MixerApi\ExceptionRender\ErrorDecorator
+ * @uses \MasaKni\ExceptionRender\ErrorDecorator
  * @uses ReflectionClass
  * @uses \Cake\Event\Event
  * @uses \Cake\Event\EventManager
@@ -101,7 +101,7 @@ class MixerApiExceptionRenderer extends WebExceptionRenderer
         $errorDecorator = new ErrorDecorator($viewVars, $serialize);
         EventManager::instance()->dispatch(
             new Event(
-                'MixerApi.ExceptionRender.beforeRender',
+                'MasaKni.ExceptionRender.beforeRender',
                 $errorDecorator,
                 ['exception' => $this]
             )

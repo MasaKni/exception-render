@@ -20,7 +20,7 @@ class Plugin extends BasePlugin
      *
      * @var bool
      */
-    protected $consoleEnabled = false;
+    protected bool $consoleEnabled = false;
 
     /**
      * Enable middleware

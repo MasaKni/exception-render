@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace MasaKni\ExceptionRender;
+namespace MixerApi\ExceptionRender;
 
 class ErrorDecorator
 {

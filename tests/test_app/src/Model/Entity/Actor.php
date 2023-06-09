@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace MasaKni\ExceptionRender\Test\App\Model\Entity;
+namespace MixerApi\ExceptionRender\Test\App\Model\Entity;
 
 use Cake\ORM\Entity;
-use MasaKni\HalView\HalResourceInterface;
+use MixerApi\HalView\HalResourceInterface;
 use Cake\Datasource\EntityInterface;
 
 class Actor extends Entity

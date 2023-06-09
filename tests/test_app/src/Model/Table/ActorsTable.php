@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace MasaKni\ExceptionRender\Test\App\Model\Table;
+namespace MixerApi\ExceptionRender\Test\App\Model\Table;
 
 use Cake\ORM\Table;
 use Cake\Validation\Validator;

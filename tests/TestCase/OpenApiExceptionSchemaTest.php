@@ -1,9 +1,9 @@
 <?php
 
-namespace MasaKni\ExceptionRender\Test\TestCase;
+namespace MixerApi\ExceptionRender\Test\TestCase;
 
 use Cake\TestSuite\TestCase;
-use MasaKni\ExceptionRender\OpenApiExceptionSchema;
+use MixerApi\ExceptionRender\OpenApiExceptionSchema;
 
 class OpenApiExceptionSchemaTest extends TestCase
 {

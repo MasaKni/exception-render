@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace MasaKni\ExceptionRender;
+namespace MixerApi\ExceptionRender;
 
 use Cake\Core\BasePlugin;
 use Cake\Core\PluginApplicationInterface;
@@ -13,7 +13,7 @@ class Plugin extends BasePlugin
      *
      * @var string
      */
-    protected ?string $name = 'MasaKni/ExceptionRender';
+    protected ?string $name = 'MixerApi/ExceptionRender';
 
     /**
      * Console middleware

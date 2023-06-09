@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace MasaKni\ExceptionRender;
+namespace MixerApi\ExceptionRender;
 
 use ArrayObject;
 use Cake\Core\Configure;
@@ -25,7 +25,7 @@ class EntityValidationListener
      */
     public function __construct()
     {
-        if (Configure::read('MasaKni.ExceptionRender.entity_validation') !== false) {
+        if (Configure::read('MixerApi.ExceptionRender.entity_validation') !== false) {
             EventManager::instance()->on(
                 'Model.afterMarshal',
                 function ($event, $entity, $options) {

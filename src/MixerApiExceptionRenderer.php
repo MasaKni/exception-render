@@ -84,7 +84,7 @@ class MixerApiExceptionRenderer extends WebExceptionRenderer
         $viewVars = [
             'exception' => (new ReflectionClass($exception))->getShortName(),
             'message' => $message,
-            'url' => h($url),
+            'url' => htmlspecialchars($url, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8'),
             'code' => $code,
             'error' => $exception,
             'exceptions' => $exceptions,

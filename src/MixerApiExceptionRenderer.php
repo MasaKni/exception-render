@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace MixerApi\ExceptionRender;
+namespace MasaKni\ExceptionRender;
 
 use Cake\Core\Configure;
 use Cake\Core\Exception\CakeException;

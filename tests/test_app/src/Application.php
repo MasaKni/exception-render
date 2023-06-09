@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace MixerApi\ExceptionRender\Test\App;
+namespace MasaKni\ExceptionRender\Test\App;
 
 use Cake\Http\BaseApplication;
 use Cake\Http\Middleware\BodyParserMiddleware;
@@ -18,7 +18,7 @@ class Application extends BaseApplication
 
     public function bootstrap(): void
     {
-        $this->addPlugin('MixerApi/ExceptionRender');
+        $this->addPlugin('MasaKni/ExceptionRender');
     }
 
     public function routes(RouteBuilder $routes): void

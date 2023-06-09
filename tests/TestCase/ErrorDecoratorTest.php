@@ -1,9 +1,9 @@
 <?php
 
-namespace MixerApi\ExceptionRender\Test\TestCase;
+namespace MasaKni\ExceptionRender\Test\TestCase;
 
 use Cake\TestSuite\TestCase;
-use MixerApi\ExceptionRender\ErrorDecorator;
+use MasaKni\ExceptionRender\ErrorDecorator;
 
 class ErrorDecoratorTest extends TestCase
 {

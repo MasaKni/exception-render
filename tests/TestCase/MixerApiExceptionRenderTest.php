@@ -1,13 +1,13 @@
 <?php
 
-namespace MixerApi\ExceptionRender\Test\TestCase;
+namespace MasaKni\ExceptionRender\Test\TestCase;
 
 use Cake\Core\Exception\CakeException;
 use Cake\Http\Exception\HttpException;
 use Cake\Http\ServerRequest;
 use Cake\TestSuite\TestCase;
-use MixerApi\ExceptionRender\MixerApiExceptionRenderer;
-use MixerApi\ExceptionRender\ValidationException;
+use MasaKni\ExceptionRender\MixerApiExceptionRenderer;
+use MasaKni\ExceptionRender\ValidationException;
 
 class MixerApiExceptionRenderTest extends TestCase
 {

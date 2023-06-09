@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace MixerApi\ExceptionRender\Test\Fixture;
+namespace MasaKni\ExceptionRender\Test\Fixture;
 
 /**
  * ActorsFixture

@@ -9,7 +9,7 @@
         "cakephp/cakephp": "5.x-dev"
     },
     "require-dev": {
-        "masakni/cakephp-swagger-bake": "dev-master"
+        "cnizzardini/cakephp-swagger-bake": "v3.0.0.x-dev"
     },
     "autoload": {
         "psr-4": {
@@ -29,15 +29,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/MasaKni/class-explorer.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/MasaKni/core.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/MasaKni/cakephp-swagger-bake.git"  
+            "url": "https://github.com/cnizzardini/core.git"
         }
     ],
     "minimum-stability": "dev",

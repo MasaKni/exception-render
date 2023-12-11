@@ -6,7 +6,6 @@ namespace MixerApi\ExceptionRender;
 use Cake\Core\Configure;
 use Cake\Core\Exception\CakeException;
 use Cake\Error\Debugger;
-use Cake\Error\ExceptionRenderer;
 use Cake\Error\Renderer\WebExceptionRenderer;
 use Cake\Event\Event;
 use Cake\Event\EventManager;
@@ -84,7 +83,7 @@ class MixerApiExceptionRenderer extends WebExceptionRenderer
         $viewVars = [
             'exception' => (new ReflectionClass($exception))->getShortName(),
             'message' => $message,
-            'url' => htmlspecialchars($url, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8'),
+            'url' => h($url),
             'code' => $code,
             'error' => $exception,
             'exceptions' => $exceptions,

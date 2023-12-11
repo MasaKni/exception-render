@@ -1,12 +1,12 @@
 {
-    "name": "masakni/exception-render",
+    "name": "mixerapi/exception-render",
     "description": "Handles rendering entity validation errors and other exceptions for your API",
     "type": "cakephp-plugin",
     "license": "MIT",
     "keywords": ["cakephp","cakephp error handling","cakephp exception handling"],
     "require": {
         "php": "^8.0",
-        "cakephp/cakephp": "5.x-dev"
+        "cakephp/cakephp": "^5.0"
     },
     "require-dev": {
         "cnizzardini/cakephp-swagger-bake": "v3.0.0.x-dev"

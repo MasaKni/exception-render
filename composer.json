@@ -9,7 +9,7 @@
         "cakephp/cakephp": "^5.0"
     },
     "require-dev": {
-        "cnizzardini/cakephp-swagger-bake": "v3.0.0.x-dev"
+        "cnizzardini/cakephp-swagger-bake": "^3.0"
     },
     "autoload": {
         "psr-4": {
